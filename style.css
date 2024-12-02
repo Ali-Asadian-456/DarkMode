@@ -1,0 +1,27 @@
+*{
+    padding: 0; /* حذف فاصله داخلی پیش‌فرض */
+    margin: 0; /* حذف فاصله خارجی پیش‌فرض */
+}
+
+
+
+.toggle-container{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background .3s linear , color .3s linear;
+}
